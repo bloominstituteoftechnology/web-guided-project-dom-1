@@ -1,7 +1,9 @@
 {
   "name": "web-guided-project-dom-1",
+  "repository": {
+    "url": "https://github.com/LambdaSchool/web-guided-project-dom-1-solution"
+  },
   "version": "0.0.1",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html"
   },
