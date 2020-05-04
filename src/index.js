@@ -8,12 +8,12 @@ console.log('The project is UP')
 //  - the .classList
 //  - the data inside a data-attribute using .dataset
 //  - the text content using .textContent
-//  - any attribute using .getAttribute('id') // example with id
+//  - any attribute using .getAttribute('id') // example using id
 
 // STEP 3- find the body of the document in the DOM and find:
-//  - Its parent element
-//  - Its first child element
-//  - Its first child element's next sibling element
+//  - Its parentElement
+//  - Its firstElementChild
+//  - Its firstElementChild's nextSibling element
 
 // STEP 4- find the Lambda Cat heading with firstElementChild and nextSibling
 
