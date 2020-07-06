@@ -11,6 +11,9 @@ header {
   padding: 10px;
   margin: 0;
 }
+header.sky {
+  background: deepskyblue;
+}
 @media (max-width: 780px) {
   header {
     flex-direction: column;
