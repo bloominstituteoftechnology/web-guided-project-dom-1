@@ -1,9 +1,17 @@
 // USING THE DOM TO EDIT ELEMENTS ON THE PAGE (AND ADD NEW ONES)
 
 // 1- Finding an element on the page and saving a reference to it
-//  getElementById, getElementsByTagName, getElementsByClassName
-//  querySelector
-//  querySelectorAll
+//  Older: getElementById, getElementsByTagName, getElementsByClassName
+//  Newer: querySelector, querySelectorAll
+const header = null
+const logoTitle = null
+const firstCard = null
+const imageFirstCard = null
+const titleFirstCard = null
+const subtitleFirstCard = null
+const textFirstCard = null
+const link1FirstCard = null
+const link2FirstCard = null
 
 // 2- Changing an element's text content
 //  textContent, innerText
