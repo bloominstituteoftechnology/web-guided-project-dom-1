@@ -16,7 +16,7 @@ const link2FirstCard = null
 // 2- Changing an element's text content
 //  textContent, innerText (subtle differences)
 
-// 3- Changing any property
+// 3- Accessing and changing element attributes
 //  with dot notation
 //  setAttribute, getAttribute
 
