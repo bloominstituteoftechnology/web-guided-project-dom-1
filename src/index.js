@@ -14,7 +14,7 @@ const link1FirstCard = null
 const link2FirstCard = null
 
 // 2- Changing an element's text content
-//  textContent, innerText
+//  textContent, innerText (subtle differences)
 
 // 3- Changing any property
 //  with dot notation
