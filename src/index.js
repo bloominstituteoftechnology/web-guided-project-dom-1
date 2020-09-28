@@ -1,31 +1,31 @@
 // USING THE DOM TO EDIT ELEMENTS ON THE PAGE (AND ADD NEW ONES)
 
-// 1- Finding an element on the page and saving a reference to it
+// 1- Making a clone of the div.card ad appending it to the div.card-group
+
+// 2- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
 const header = null
 const logoTitle = null
-const firstCard = null
-const imageFirstCard = null
-const titleFirstCard = null
-const subtitleFirstCard = null
-const textFirstCard = null
-const link1FirstCard = null
-const link2FirstCard = null
+const card = null
+const cardImage = null
+const cardTitle = null
+const cardSubtitle = null
+const cardText = null
+const cardLink1 = null
+const cardLink2 = null
 
-// 2- Changing an element's text content
+// 3- Changing an element's text content
 //  textContent, innerText (subtle differences)
 
-// 3- Accessing and changing element attributes
+// 4- Accessing and changing element attributes
 //  with dot notation
 //  setAttribute, getAttribute
 
-// 4- Changing the style
+// 5- Changing the style
 //  by changing the class names on the element
 //  by manipulating inline styles on the element
 
-// 5- Creating new elements and appending them
+// 6- Creating new elements and appending them
 
-// 6- Removing an existing element and putting it back
-
-// 7- Making a copy of the card and appending it to the card group
+// 7- Removing an existing element and putting it back
