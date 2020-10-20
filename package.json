@@ -1,8 +1,5 @@
 {
   "name": "web-guided-project-dom-1",
-  "repository": {
-    "url": "https://github.com/LambdaSchool/web-guided-project-dom-1"
-  },
   "version": "0.0.1",
   "scripts": {
     "start": "parcel src/index.html"
@@ -10,5 +7,9 @@
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/web-guided-project-dom-1.git"
   }
 }
