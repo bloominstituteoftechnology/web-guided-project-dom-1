@@ -10,13 +10,13 @@ const header = document.querySelector('header#header')
 const logoTitle = document.querySelector('h1#logoTitle.heading.logo')
 const firstCard = document.querySelector('.card:nth-of-type(1)')
 // B- finding within one particular element
-const imageFirstCard = null
-const titleFirstCard = null
-const subtitleFirstCard = null
-const textFirstCard = null
+const imageFirstCard = firstCard.querySelector('img')
+const titleFirstCard = firstCard.querySelector('h2.card-title')
+const subtitleFirstCard = firstCard.querySelector('h3')
+const textFirstCard = firstCard.querySelector('p')
 // C- traversing with dot notation
-const link1FirstCard = null
-const link2FirstCard = null
+const link1FirstCard = textFirstCard.nextElementSibling
+const link2FirstCard = link1FirstCard.nextElementSibling
 
 
 // 👉 2- Finding collections of elements in the DOM
