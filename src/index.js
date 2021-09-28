@@ -2,7 +2,8 @@
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
-
+const navElement = document.getElementById('main-nav');
+const mrnuItems = document.getElementsByClassName('menu-item');
 // A- finding across the entire DOM
 const header = null
 const logoTitle = null
