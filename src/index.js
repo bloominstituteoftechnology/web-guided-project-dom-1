@@ -1,10 +1,17 @@
 // 👉 1- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 const allLinks = document.getElementsByTagName("a"); // HAS to be an HTML element
-const allCards = document.getElementByClassName("card");
+const allCards = document.getElementsByClassName("card");
 const logoTitleOld = document.getElementById("logoTitle");
 
 //  Newer: querySelector, querySelectorAll
+// querySelector returns the first (and only the first) element it finds
+// that matches the given CSS selector
+// querySelectorAll returns all elements that
+// match the given CSS selector -> NodeList
+
+// Wait, what is a DOM node anyways...?
+
 //  Select the following single elements from the div.card
 
 // A- finding across the entire DOM
