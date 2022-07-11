@@ -1,5 +1,9 @@
 // 👉 1- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
+const allLinks = document.getElementsByTagName("a"); // HAS to be an HTML element
+const allCards = document.getElementByClassName("card");
+const logoTitleOld = document.getElementById("logoTitle");
+
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
 
