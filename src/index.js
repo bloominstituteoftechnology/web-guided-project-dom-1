@@ -98,11 +98,30 @@ document.querySelector(".card-group").appendChild(secondCard);
 // 👉 9- Show to students the insertAdjacentHTML method [STRETCH if time allows]
 
 
-const data =   {
+const data = {
   "contact": {
-    "contact-heading" : "Contact",
+    "contact-heading" : "GABE'S WACKY CONTACT PAGE",
     "address" : "123 Way 456 Street Somewhere, USA",
     "phone" : "1 (888) 888-8888",
     "email" : "sales@greatidea.io",
   }
 };
+
+const contactHeading = document.querySelector(".contact-heading");
+
+contactHeading.textContent = data["contact"]["contact-heading"];
+
+/**
+ * What are the two ways to access values in an object....?
+ * 1.) dot
+ * 2.) brackets -> play nicely with hyphens and variable names!
+ */
+
+// const person = {
+//   name: "Casey",
+//   age: 72
+// }
+
+// const userInput = "age";
+// person[userInput] = "NEW NAME";
+// console.log(person);
