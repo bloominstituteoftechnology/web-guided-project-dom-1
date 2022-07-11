@@ -3,7 +3,7 @@
 const allLinks = document.getElementsByTagName("a"); // HAS to be an HTML element
 const allCards = document.getElementsByClassName("card");
 const logoTitleOld = document.getElementById("logoTitle");
-logoTitleOld.getElementsByClassName
+
 //  Newer: querySelector, querySelectorAll
 // querySelector returns the first (and only the first) element it finds
 // that matches the given CSS selector
@@ -46,35 +46,63 @@ links.forEach(link => console.log(link.textContent));
 const linksRealArray = Array.from(links);
 // D- Use .find to find the anchor tag with the textContent of "Home"
 const homeLink = linksRealArray.find(link => link.textContent === "Home");
+
 // What is the difference between...
 // ==   ::: does do type coercion => 1 == "1"
 // ===  ::: does not do type coercion => 1 === "1" NOOO
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
+logoTitle.textContent = "Bloomtech Doggos";
+titleFirstCard.textContent = "Forced to like dogs... :(";
+subtitleFirstCard.textContent = "Cats are the best!";
+textFirstCard.textContent = "Lorem ipsum dolor sit amet.";
+link2FirstCard.textContent = "Doggo Ipsum";
 //  B- Have the students research online the difference between textContent and innerText
-
+/**
+ * WAT IS THE DIFFERENCE BETWEEN....
+ * ==   ::: type coercion OH NOES      ::: 1 == "1"
+ * ===  ::: NO type coercion OH YEAH!  ::: 1 === "1" NOPE
+ */
 
 // 👉 4- Changing any property
 //  A- Using dot notation to change a few attributes
+logoTitle.className = "logo heading banana";
+imageFirstCard.src = "https://herepup.com/wp-content/uploads/2015/12/Dog-Advice-1-1.jpg";
 //  B- Using .setAttribute to change a few attributes
-
+link1FirstCard.setAttribute("href", "https://www.pexels.com/search/dog/");
+link2FirstCard.setAttribute("href", "https://doggoipsum.com/");
 
 // 👉 5- Changing the styling of an element
 //  A- By changing the class names on the element with the classList API
+header.classList.add("sky");
+header.classList.remove("sky");
 //  B- By manipulating inline styles on the element
-
+header.style.fontSize = "2em";
 
 // 👉 6- Creating new elements from scratch and appending them
 // Create a new link inside the nav for "Blog"
-
+const blogLink = document.createElement("a");
+blogLink.textContent = "Blog";
+blogLink.href = "#";
+document.querySelector("nav").appendChild(blogLink);
 
 // 👉 7- Making a copy of the card and appending it to the card group
 // DOM nodes can only exist in one spot in the DOM
 // We cannot append the same copy multiple times
-
-
+const secondCard = firstCard.cloneNode(true);
+document.querySelector(".card-group").appendChild(secondCard);
 // 👉 8- Removing an existing element and putting it back [STRETCH if time allows]
 
 
 // 👉 9- Show to students the insertAdjacentHTML method [STRETCH if time allows]
+
+
+const data =   {
+  "contact": {
+    "contact-heading" : "Contact",
+    "address" : "123 Way 456 Street Somewhere, USA",
+    "phone" : "1 (888) 888-8888",
+    "email" : "sales@greatidea.io",
+  }
+};
