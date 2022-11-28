@@ -16,3 +16,5 @@ In this project we will learn how to use a variety of DOM selectors and manipula
 - [ ] Run `npm install` to download dependencies.
 - [ ] Run `npm start` to compile and serve the project.
 - [ ] Use Chrome to navigate to the URL indicated by the output of `npm start`.
+
+❗ Note that the website will seem broken. The purpose of this Guided Project is to fix it using JavaScript.
