@@ -4,7 +4,7 @@
   "scripts": {
     "start": "parcel src/index.html"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "parcel": "^2.12.0"
   },
