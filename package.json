@@ -1,12 +1,12 @@
 {
   "name": "web-guided-project-dom-1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "parcel src/index.html"
   },
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.12.0"
   },
   "repository": {
     "type": "git",
