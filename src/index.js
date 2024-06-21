@@ -2,6 +2,8 @@
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
+const alllinks = document.getElementsByTagName("a");
+console.log(alllinks);
 
 // A- finding across the entire DOM
 const header = null
