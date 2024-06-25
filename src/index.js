@@ -35,11 +35,11 @@ const link2FirstCard = link1FirstCard.nextElementSibling;
 // A- Find all the anchor tags inside the nav element
 const links = document.querySelectorAll("nav a"); //找到nav下的所有a标签
 // B- Loop over the links and console.log their text content
-const linksArray = Array.from(links); //将links转换为数组
+links.forEach(link => console.log(link.textContent)); //遍历links，将每个link的textContent打印出来
 // C- Turn the collection of links into a real array
-const textLinks = linksArray.map(link => link.textContent); //将linksArray中的每个link的textContent取出来，放到textLinks中
+const linkRealArray = Array.from(links); //将links转换为真正的数组
 // D- Use .filter to find the anchor tag with the textContent of "Home"
-const homeLink = linksArray.filter(link => link.textContent === "Home")[0]; //找到linksArray中textContent为"Home"的link
+const homeLink =linkRealArray.find(link => link.textContent === "Home"); //找到linkRealArray中textContent为"Home"的元素
 
 
 // 👉 3- Changing an element's text content
