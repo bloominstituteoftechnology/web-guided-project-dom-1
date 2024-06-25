@@ -1,22 +1,28 @@
 // 👉 1- Finding an element on the page and saving a reference to it
-//  Older: getElementById, getElementsByTagName, getElementsByClassName
-//  Newer: querySelector, querySelectorAll
-//  Select the following single elements from the div.card
-const alllinks = document.getElementsByTagName("a");
-console.log(alllinks);
+    //  Older: getElementById, getElementsByTagName, getElementsByClassName
+    //  Newer: querySelector, querySelectorAll
+    //  Select the following single elements from the div.card
+const allLinks = document.getElementsByTagName("a");
+const allCards = document.getElementsByClassName("card");
+const logoTitleOld = document.getElementById("logoTitle");
 
 // A- finding across the entire DOM
-const header = null
-const logoTitle = null
-const firstCard = null
+// querySelector() 方法返回文档中匹配指定 CSS 选择器的一个元素。
+// querySelector() 方法仅仅返回匹配指定选择器的第一个元素。如果你需要返回所有的元素，请使用 querySelectorAll() 方法替代。
+
+const header = document.querySelector("header");
+const logoTitle = document.querySelector("#logoTitle");
+const firstCard = document.querySelector(".card:nth-of-type(1)")
+
 // B- finding within one particular element
-const imageFirstCard = null
-const titleFirstCard = null
-const subtitleFirstCard = null
-const textFirstCard = null
+const imageFirstCard = firstCard.querySelector("img");
+const titleFirstCard = firstCard.querySelector("h2");
+const subtitleFirstCard = firstCard.querySelector("h3");
+const textFirstCard = firstCard.querySelector("p");
+
 // C- traversing with dot notation
-const link1FirstCard = null
-const link2FirstCard = null
+const link1FirstCard = textFirstCard.nextElementSibling;
+const link2FirstCard = link1FirstCard.nextElementSibling;
 
 
 // 👉 2- Finding collections of elements in the DOM
