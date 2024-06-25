@@ -44,8 +44,13 @@ const homeLink =linkRealArray.find(link => link.textContent === "Home"); //找�
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
+// really fun to see how the page changes
 titleFirstCard.textContent = "Dog Photo";
+logoTitle.textContent = "Dog Photo Website";
+subtitleFirstCard.textContent = "Cute dogs";
+textFirstCard.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.";
 //  B- Have the students research online the difference between textContent and innerText
+
 
 
 
